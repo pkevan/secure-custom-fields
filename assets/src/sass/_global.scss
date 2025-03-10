@@ -582,7 +582,7 @@ a.acf-icon.dark {
 	line-height: 14px;
 	font-size: 14px;
 
-	// Apply minor transforms to reduce clarirty of "duplicate" icon.
+	// Apply minor transforms to reduce clarity of "duplicate" icon.
 	// Helps to unify rendering with dashicons.
 	&.-duplicate {
 		&:before,
@@ -975,7 +975,7 @@ a.acf-icon.dark {
 		.inner {
 			min-height: 50px;
 
-			// use margin instead of padding to allow inner elements marin to overlap and avoid large hitespace at top/bottom
+			// use margin instead of padding to allow inner elements marin to overlap and avoid large whitespace at top/bottom
 			padding: 0;
 			margin: 15px;
 		}
@@ -1083,7 +1083,7 @@ a.acf-icon.dark {
 	}
 }
 
-// Hide icons for upgade notice.
+// Hide icons for upgrade notice.
 #acf-upgrade-notice:has(.notice-container)::before,
 #acf-upgrade-notice:has(.notice-container)::after {
 	display: none;

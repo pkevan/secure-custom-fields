@@ -157,7 +157,7 @@
 .acf-fields {
 	position: relative;
 
-	// clearifx
+	// clearfix
 	@include clearfix();
 
 	// border
@@ -226,7 +226,7 @@
 .acf-fields.-left > .acf-field {
 	padding: $fy 0;
 
-	// clearifx
+	// clearfix
 	@include clearfix();
 
 	// sidebar
@@ -1447,7 +1447,7 @@ ul.acf-checkbox-list {
 			display: none;
 		}
 
-		// Avoid icons disapearing when click/blur events conflict.
+		// Avoid icons disappearing when click/blur events conflict.
 		.acf-icon:active {
 			display: inline-block !important;
 		}
@@ -1501,7 +1501,7 @@ ul.acf-checkbox-list {
 			display: block;
 		}
 
-		// Change search font-weght.
+		// Change search font-weight.
 		.search {
 			font-weight: normal !important;
 		}
@@ -1900,7 +1900,7 @@ html[dir="rtl"] .pac-container .pac-item {
 		border-top: $wp-card-border solid 1px;
 		border-bottom: $wp-card-border solid 1px;
 
-		// Pull next element (field) up and underneith.
+		// Pull next element (field) up and underneath.
 		z-index: 2;
 		margin-bottom: -1px;
 
